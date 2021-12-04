@@ -57,28 +57,28 @@ const Modal = memo(({ closeModal, setSkipIntroTrueToLocalStorage }) => {
   }, []);
 
   const exampleTags = useMemo(() => [
-    { name: 'активное', description: 'только видео с этим тегом будут появляться', tagState: true },
-    { name: 'неактивное', description: 'все видео с такими тегом не будут появляться', tagState: false },
-    { name: 'нейтральное', description: 'изначальное состояние, не влияет на что-либо', tagState: null },
+    { name: 'active', description: 'only videos with this tag will show up', tagState: true },
+    { name: 'inactive', description: 'all videos with this tag won\'t show up', tagState: false },
+    { name: 'neutral', description: 'initial state, doesn\'t affect anything', tagState: null },
   ].map(tag => <Tag {...getModifiedTag(tag)} />), []);
   
   return (
     <div className="modal outlined-text">
       <ol>
-        <li><button onClick={() => toggleHighlightNode('navigationNode')}>Тут страницы</button></li>
-        <li><button onClick={() => toggleHighlightNode('tagsNode')}>Там теги</button> (и на всех видео тоже)</li>
-        <li>У каждого тега есть 3 состояния: {exampleTags[0]} {exampleTags[1]} {exampleTags[2]}</li>
-        <li>При наведении курсора на тег появляется небольшое описание.</li>
-        <li>Можете менять состояние тега правой или левой кнопкой мыши.</li>
-        <li className="show-small-screen">Под мобилу не заточено, идите за пк</li>
-        <li>Разделение на теги субъективно, не надо бить автора за это.</li>
-        <li>Чем больше музыка мне нравится, тем первее она в списке (по идее).</li>
-        <li>Весь контент актуален на 28 ноября 2021.</li>
+        <li><button onClick={() => toggleHighlightNode('navigationNode')}>Pages here</button></li>
+        <li><button onClick={() => toggleHighlightNode('tagsNode')}>Tags there</button> (and on all the videos)</li>
+        <li>Every tag has 3 states: {exampleTags[0]} {exampleTags[1]} {exampleTags[2]}</li>
+        <li>When you hover over a tag, a small description appears.</li>
+        <li>You can change the state of the tag with the right or left mouse button.</li>
+        <li className="show-small-screen">Not for mobile, go to pc</li>
+        <li>Separation into tags is subjective, you don't have to beat the author for it.</li>
+        <li>The more I like the music, the first it is on the list (in theory).</li>
+        <li>All content is current as of 28 November 2021.</li>
       </ol>
       <div>
-        <button onClick={closeModal}>Понял, принял.</button>
-        <button className="show-small-screen" onClick={closeModal}>Да мне вообще плевать.</button>
-        <button onClick={setSkipIntroTrueToLocalStorage}>Хватит показывать это сообщение!</button>
+        <button onClick={closeModal}>Alright, got it.</button>
+        <button className="show-small-screen" onClick={closeModal}>I don't care. Let me in.</button>
+        <button onClick={setSkipIntroTrueToLocalStorage}>Stop showing me this!</button>
       </div>
     </div>
   );

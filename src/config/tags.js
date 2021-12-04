@@ -18,151 +18,151 @@ const rawTags = [
     name: 'ⓘ',
     description: (
       <Description>
-        У этих видео я оставил небольшие заметки.
+        I have left a note for these videos.
       </Description>
     ),
   },
   {
-    name: 'инструментальная',
+    name: 'instrumental',
     description: (
       <Description>
-        Музыка без слов или акцент на них очень мал. Таких у меня много.
+        Music without word, or the main focus is not on them. I have a lot of these.
       </Description>
     ),
   },
   {
-    name: 'японская',
+    name: 'japanese',
     description: (
       <Description>
-        Музыка с японскими словами, чаще всего из аниме или osu! узнал, но не всегда.
+        Music with japanese words, mostly likely from osu! or anime, but not always.
       </Description>
     ),
   },
   {
-    name: 'английская',
+    name: 'english',
     description: (
       <Description>
-        Музыка с английскими словами, чаще всего просто случайно натыкаюсь на нее.
+        Music with english words, just randomly run into it.
       </Description>
     ),
   },
   {
-    name: 'русская',
+    name: 'russian',
     description: (
       <Description>
-        Музыка с русскими словами, не так давно начал находить крутые песни.
+        Music with russian words.
       </Description>
     ),
   },
   {
-    name: 'караоке',
+    name: 'karaoke',
     description: (
       <Description>
-        С друзьями иногда в караоке ходим, это подборка для меня. <br /> <Emoji src={FeelsAmazingMan} />
+        My friends and I sometimes go to karaoke, these songs are my choice. <br /> <Emoji src={FeelsAmazingMan} />
       </Description>
     ),
   },
   {
-    name: 'грустная',
+    name: 'sad',
     description: (
       <Description>
-        Усугубляет тоску... <br /> <Emoji src={FeelsHangMan} />
+        Worsens sad moments... <br /> <Emoji src={FeelsHangMan} />
       </Description>
     ),
   },
   {
-    name: 'веселая',
+    name: 'happy',
     description: (
       <Description>
-        Поднимает настроение! <br /> <Emoji src={FeelsOkayMan} />
+        Cheering me up! <br /> <Emoji src={FeelsOkayMan} />
       </Description>
     ),
   },
   {
-    name: 'спокойная',
+    name: 'calm',
     description: (
       <Description>
-        Нередко охота послушать что-то спокойное, чтобы расслабиться.
+        Sometimes want to listen to something calm to relax.
       </Description>
     ),
   },
   {
-    name: 'активная',
+    name: 'active',
     description: (
       <Description>
-        Часто хочется слушать подобное; больше энергии появляется! <br /> <Emoji src={SwoleDoge} />
+        Often want to listen to these music; gives me energy! <br /> <Emoji src={SwoleDoge} />
       </Description>
     ),
   },
   {
-    name: 'вокалоид',
+    name: 'vocaloid',
     description: (
       <Description>
-        Песенки миленькие, как и персонажи. <br /> <Emoji src={AYAYA} />
+        Cute song and characters. <br /> <Emoji src={AYAYA} />
       </Description>
     ),
   },
   {
-    name: 'рок',
+    name: 'rock',
     description: (
       <Description>
-        Рок. Много рока.
+        Rock. A lot of rock.
       </Description>
     ),
   },
   {
-    name: 'панк',
+    name: 'punk',
     description: (
       <Description>
-        Друг подсадил... <br /> <Emoji src={wojakWithered} />
+        Friend of my hooked me on these... <br /> <Emoji src={wojakWithered} />
       </Description>
     ),
   },
   {
-    name: 'метал',
+    name: 'metal',
     description: (
       <Description>
-        Мало таких треков, в основном это мелодичный метал.
+        I have a few of these, all of them are melodic metal.
       </Description>
     ),
   },
   {
-    name: 'электронная',
+    name: 'electronic',
     description: (
       <Description>
-        Скорее всего долбежка. <br /> <Emoji src={ChadYes} />
+        This slaps! <br /> <Emoji src={ChadYes} />
       </Description>
     ),
   },
   {
-    name: 'хардкор/спидкор',
+    name: 'hardcore/speedcore',
     description: (
       <Description>
-        Скорее всего <b>нереальная</b> долбежка. <br /> <Emoji src={ChadYes} />
+        This slaps <b>harder</b>. <br /> <Emoji src={ChadYes} />
       </Description>
     ),
   },
   {
-    name: 'кельтская',
+    name: 'celtic',
     description: (
       <Description>
-        Скрипка, флейта, барабаны, волынка, арфа... Очень приятно для слуха. <br /> <Emoji src={FeelsOkayMan} />
+        Violin, flute, drums, bagpipes, harp ... Very pleasant to the ear. <br /> <Emoji src={FeelsOkayMan} />
       </Description>
     ),
   },
   {
-    name: 'оркестровая',
+    name: 'orchestral',
     description: (
       <Description>
-        В основном эпическая. 
+        Mostly epic.
       </Description>
     ),
   },
   {
-    name: 'классическая',
+    name: 'classical',
     description: (
       <Description>
-        Здесь я имею ввиду не только классику, но и музыку, похожую на нее. <br /> <Emoji src={EZY} />
+        Not only classics though. <br /> <Emoji src={EZY} />
       </Description>
     ),
   },
@@ -170,7 +170,7 @@ const rawTags = [
     name: 'xi',
     description: (
       <Description>
-        Автор электронной музыки, очень нравится его стиль, узнал из osu! о нем.
+        Electronic music artist, I enjoy his style.
       </Description>
     ),
   },
@@ -178,7 +178,7 @@ const rawTags = [
     name: 'ICCD',
     description: (
       <Description>
-        Imperial Circus Dead Decadence. Метал группа. <br /> <Emoji src={monkaMEGA} />
+        Imperial Circus Dead Decadence. Metal. <br /> <Emoji src={monkaMEGA} />
       </Description>
     ),
   },
@@ -186,7 +186,7 @@ const rawTags = [
     name: 'akatsuki records',
     description: (
       <Description>
-        Японская группа, необычный голос у вокалистки. <br /> <Emoji src={roflanEbalo} />
+        Japanese band, unusual vocal. <br /> <Emoji src={roflanEbalo} />
       </Description>
     ),
   },
@@ -194,7 +194,7 @@ const rawTags = [
     name: 'phyxinon',
     description: (
       <Description>
-        Чел круто на фортепиано играет!
+        He plays goooood!
       </Description>
     ),
   },
@@ -202,7 +202,7 @@ const rawTags = [
     name: 'kalafina',
     description: (
       <Description>
-        Уже распавшаяся японская группа, основанная Юки Кадзиурой. Очень много их треков мне нравится.
+        An already disbanded Japanese group founded by Yuuki Kajiura. I like a lot of their tracks.
       </Description>
     ),
   },
@@ -210,7 +210,7 @@ const rawTags = [
     name: 'love solfege',
     description: (
       <Description>
-        Уникальный стиль. Очень круто! <br /> <Emoji src={peepoGlad} />
+        Unique style. Very cool! <br /> <Emoji src={peepoGlad} />
       </Description>
     ),
   },
@@ -218,7 +218,7 @@ const rawTags = [
     name: 'yousei teikoku',
     description: (
       <Description>
-        Японский рок.
+        Japanese rock.
       </Description>
     ),
   },
@@ -226,7 +226,7 @@ const rawTags = [
     name: 'yuki kajiura',
     description: (
       <Description>
-        Музыкант и композитор, много ее треков мне нравятся.
+        Musician and composer, I like a lot of her tracks.
       </Description>
     ),
   },
@@ -234,7 +234,7 @@ const rawTags = [
     name: 'nomy',
     description: (
       <Description>
-        Группа, состоящая из одного человека.
+        A group of one person.
       </Description>
     ),
   },
@@ -242,7 +242,7 @@ const rawTags = [
     name: 'rigël theatre',
     description: (
       <Description>
-        Очень приятный голос и мелодия! Одна из моих самых любимых групп.
+        Very nice voice and melody! One of my favorite bands.
       </Description>
     ),
   },
@@ -250,7 +250,7 @@ const rawTags = [
     name: 'wagakki band',
     description: (
       <Description>
-        Японский фолк-рок.
+        Japanese folk rock.
       </Description>
     ),
   },
@@ -258,7 +258,7 @@ const rawTags = [
     name: 'sky mubs',
     description: (
       <Description>
-        Композитор, создающий эпичную музыку.
+        A composer making epic music.
       </Description>
     ),
   },
@@ -266,20 +266,20 @@ const rawTags = [
     name: 'infected mushrooms',
     description: (
       <Description>
-        Необычное звучание в их треках, запоминается!
+        Unusual sound in their tracks is memorable!
       </Description>
     ),
   },
   {
-    name: 'элизиум',
+    name: 'elysium',
     description: (
       <Description>
-        Русская панк-рок группа, очень много крутых треков.
+        Russian punk-rock group, they have a lot of cool tracks.
       </Description>
     ),
   },
   {
-    name: 'король и шут',
+    name: 'korol i shut',
     description: (
       <Description>
         <Emoji src={Trollge} />
@@ -287,7 +287,7 @@ const rawTags = [
     ),
   },
   {
-    name: 'егор летов',
+    name: 'egor letov',
     description: (
       <Description>
         <Emoji src={TrollDespair} />
@@ -298,7 +298,7 @@ const rawTags = [
     name: 'twilight force',
     description: (
       <Description>
-        Очень приятная рок музыка!
+        Very nice rock music!
       </Description>
     ),
   },
@@ -306,15 +306,15 @@ const rawTags = [
     name: 'mittsies',
     description: (
       <Description>
-        Узнал из Helltaker о нем, очень хорошая электронная музыка! 
+        Learned about him from Helltaker game, very good electronic music!
       </Description>
     ),
   },
   {
-    name: 'порнофильмы',
+    name: 'pornofilmy',
     description: (
       <Description>
-        Русская панк-рок группа, очень много крутых треков.
+        Russian punk-rock group, they have a lot of cool tracks.
       </Description>
     ),
   },
